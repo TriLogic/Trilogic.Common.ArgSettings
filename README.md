@@ -1,10 +1,10 @@
 # Trilogic.Common.ArgSettings
 A very simple library for parsing command line arguments.
 
-Arguments take the form:
+Arguments may take the form:
   /q or -q
   /f=filename
   /f="file path"
   -p=
 
-This library dates back back to the olde days and the source was pulled out of a SourceSafe repository.
+This library provides a standardized command line arg functionality for applications that accept an array of parameters.
